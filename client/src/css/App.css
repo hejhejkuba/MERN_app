@@ -1,0 +1,219 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: black;
+}
+#content {
+    position: fixed;
+    top: 80px;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: black;
+}
+@media only screen and (min-width: 0px) and (max-width: 900px)
+{
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 8%;
+        background-color: black;
+    }
+    #content {
+        position: fixed;
+        top: 50px;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        background-color: whitesmoke;
+        overflow: auto;
+    }
+    #footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 8%;
+        background-color: black;
+    }
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1900px) 
+{
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 10%;
+        background-color: black;
+    }
+    #content {
+        position: fixed;
+        top: 70px;
+        bottom: 70px;
+        left: 0;
+        right: 0;
+        background-color: whitesmoke;
+        overflow: auto;
+    }
+    #footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 10%;
+        background-color: black;
+    }
+
+}
+
+
+.container {
+  padding-top: 10px;
+}
+
+.form-container
+{
+    border:thin solid #aaaaaa;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+    background: #f7f7f7;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+}
+.form-container br
+{
+    margin-top: 5px;
+}
+
+
+.logout
+{
+    margin-bottom:30px;
+}
+
+
+.blue-button
+{
+    background-color: #0080FE;
+    font-size: 13px;
+    color: white;
+    border: 1px solid #0080FE;
+    border-radius: 10px;
+    padding: 15px 32px;
+    margin-right: 10px;
+}
+
+.blue-button:hover
+{
+    background-color: #ddd;
+    color: #0080FE;
+    text-decoration: none;
+}
+
+.gray-button
+{
+    background-color: #ddd;
+    font-size: 13px;
+    color: #0080FE;
+    border: 1px solid #0080FE;
+    border-radius: 10px;
+    padding: 15px 32px;
+    margin-right: 10px;
+}
+
+.gray-button:hover
+{
+  background-color: #0080FE; 
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/* end of link buttons */
+
+input [type="button"] 
+{
+color:pink;
+}
+
+/* table of cars */
+
+/*end of table of cars */
+
+
+/* logged in user's profile photo */
+#profilePhoto
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: thin solid #aaa;
+    float:right;
+    background-size:contain;
+}
+/* end of logged in user's profile photo */
+
+
+.carPhotos
+{
+    overflow-x: auto;
+    white-space: nowrap;
+    min-width:18em;
+    max-width:18em;
+}
+
+.carPhotos img
+{
+    width:5em;
+    height:5em;
+    padding:0em;
+    margin:0em;
+    margin-right:0.5em;
+    border:thin solid #ccc;
+}
+
+
+.payPalMessage
+{
+    width:650px;    
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    border:thin solid #666666;
+    border-radius: 50px;
+    padding:50px;    
+}
+
+#payPalPaymentIDButton
+{
+    margin-top:50px;
+}
+
+#payPalPaymentID
+{
+    font-weight: bold;
+}

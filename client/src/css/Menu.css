@@ -1,0 +1,81 @@
+#menu_bar img
+{
+	width:5em;
+    height:100%;
+	float:left;
+	margin-top: 5px;
+}
+#menu_bar 
+{
+	margin-left: 25em;
+  	width: 80%;
+}
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+@media only screen and (min-width: 0px) and (max-width: 900px)
+{
+    #menu_bar img
+	{
+		width:2em;
+		height:100%;
+		float:left;
+		margin-top: 5px;
+	}
+	#menu_bar 
+	{
+		margin-left: 4em;
+		width: 100%;
+	}
+	/* Three image containers (use 25% for four, and 50% for two, etc) */
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+	}
+	
+	/* Clear floats after image containers */
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1900px) 
+{
+    #menu_bar img
+	{
+		width:3em;
+		height:100%;
+		float:left;
+		margin-top: 5px;
+	}
+	#menu_bar 
+	{
+		margin-left: 20em;
+		width: 80%;
+	}
+	/* Three image containers (use 25% for four, and 50% for two, etc) */
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+	}
+	
+	/* Clear floats after image containers */
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
